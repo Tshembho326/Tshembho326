@@ -10,7 +10,7 @@
 
 I'm a passionate software engineer who enjoys solving meaningful problems using code. From building full-stack web apps to securing backend APIs, I focus on writing clean, scalable, and secure software.
 
-Currently, I design, implement, and secure production-ready systems using **Django**, **React**, and **Spring Boot** on a day to day basis. I thrive in Agile teams and love turning business needs into tech solutions that perform.
+Currently, I design, implement, and secure production-ready systems using **Django**, **React**, and **Spring Boot** on a day-to-day basis. I thrive in Agile teams and love turning business needs into tech solutions that perform.
 
 ---
 
@@ -34,65 +34,75 @@ Currently, I design, implement, and secure production-ready systems using **Djan
 - AWS EC2 (Basics)  
 - Git, GitHub, GitLab  
 - Agile (Scrum), Jira, Postman
-  
+
 ---
+
 ## 🚀 Projects
 
-### 📚 AI-Powered Reading Tutor
+### 📚 AI-Powered Reading Tutor  
 An intelligent app that helps learners improve pronunciation using **wav2vec 2.0** and real-time speech analysis.  
 🔧 **Tech**: Django, React, Python, Wav2Vec2.0  
-✅ Features: Live speech feedback, interactive stories, fluency scoring
+✅ **Features**: Live speech feedback, interactive stories, fluency scoring
 
-### 🏫 School Management System
+---
+
+### 🏫 School Management System  
 A backend-focused app for managing school content and access.  
 🔧 **Tech**: Spring Boot, Spring Security, PostgreSQL  
-✅ Features: RBAC, secure resource inheritance (files, video, text)
+✅ **Features**: RBAC, secure resource inheritance (files, video, text)
 
-### 📦 Storage Sprint Web App (Live)
+---
+
+### 📦 Storage Sprint Web App (Live)  
 An end-to-end web platform for managing stored items, schedules, and logistics.  
 🔧 **Tech**: Django, React.js, JWT  
-✅ Features: Token-based auth, secure driver/customer dashboards, API centralization
+✅ **Features**: Token-based auth, secure driver/customer dashboards, API centralization
 
-### 🤖 AI Email Assistant (Gmail + Gemini Integration)
-A Spring Boot-based service that reads and responds to Gmail threads using Gemini Pro via Spring AI. Designed to help automate email replies with contextual understanding.
-🔧 **Tech**: Spring Boot, Spring AI, Google Mail API, Gemini Pro
-✅ Features:
-Authenticates with Gmail via OAuth 2.0
-Parses recent threads and prompts Gemini to generate natural responses
-Exposes REST endpoints for triggering reply logic
-Built with modular service layers and secure request handling
+---
+
+### 🤖 AI Email Assistant  
+A smart assistant that connects to Gmail and generates AI-powered replies using Gemini via Spring AI.  
+🔧 **Tech**: Spring Boot, Spring AI, Google Mail API, Gemini Pro  
+✅ **Features**:
+- Authenticates with Gmail using OAuth 2.0  
+- Parses email threads and prompts Gemini to draft natural responses  
+- Exposes REST endpoints for managing auto-replies  
+- Built with modular service layers and secure logic flow
+
 ---
 
 ## 🛡️ Security Focus
 
-- 🔐 Implemented **AES-encrypted** token storage & CSRF protection  
-- 🧱 Role-based backend restrictions via decorators  
-- 🚫 Logic flaw patch to prevent data exposure  
-- 🔁 Built logout systems that invalidate JWTs securely
+- 🔐 AES-encrypted token storage & CSRF protection  
+- 🧱 Role-based access control via decorators  
+- 🚫 Patched logic flaw to prevent data exposure  
+- 🔁 JWT logout + token invalidation for session security
+
 ---
 
 ## 🎓 Education
 
 **University of Cape Town**  
-*BSc Computer Science & Applied Statistics*  
-Courses: Algorithms, Systems Design, Cloud, Networking, DBs, Machine Learning, Operational Research
+*BSc in Computer Science & Applied Statistics*  
+📘 Modules: Algorithms, Systems Design, DBs, Machine Learning, Operational Research, Cloud, Networks
 
 ---
 
 ## 📫 Let's Connect
 
-- 📸 | IG:@_tshembho.326
-- https://tshembho.online
+- 📸 IG: [@_tshembho.326]
+- 🌐 [tshembho.online]
+
 ---
 
 ## 🧩 A Bit More About Me
 
 - ⚡ I love building products that solve real-world problems  
 - 🛠️ I’m obsessed with maintainable code and clean APIs  
-- 🌱 Always learning something — currently brushing up AWS & systems design
+- 🌱 Always learning — currently brushing up AWS and advanced system design
 
 ---
 
-> "Code is a tool. Problem-solving is the craft."
+> “Code is a tool. Problem-solving is the craft.”  
 
-Thanks for stopping by — feel free to explore my projects, open an issue, or drop me a message!
+Thanks for visiting — feel free to explore my work, star a project, or connect!
