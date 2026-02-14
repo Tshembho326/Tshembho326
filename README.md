@@ -1,108 +1,170 @@
 # 👋 Hi, I'm Tshembho Xivambu
 
 🎓 BSc Computer Science & Applied Statistics @ UCT  
-💻 Full-Stack Developer | 🔐 Secure API Designer | ☁️ Aspiring AWS Engineer  
-📍 South Africa | 🌍 Building for the web, backed by data & security
+💻 Full-Stack Engineer | 🏗️ Backend & System Design Focus | 🔐 Secure API Architect  
+☁️ Cloud-minded Engineer (Azure & AWS)  
+📍 South Africa
 
 ---
 
 ## 🧠 About Me
 
-I'm a passionate software engineer who enjoys solving meaningful problems using code. From building full-stack web apps to securing backend APIs, I focus on writing clean, scalable, and secure software.
+I’m a full-stack software engineer focused on building **secure, scalable, and domain-driven systems**. I enjoy working on real-world platforms where architecture, security, and business logic matter as much as code.
 
-Currently, I design, implement, and secure production-ready systems using **Django**, **React**, and **Spring Boot** on a day-to-day basis. I thrive in Agile teams and love turning business needs into tech solutions that perform.
+My recent work centers on **ASP.NET Core, multi-tenant systems, and identity-driven architectures**, where I design APIs, enforce tenant isolation, and implement robust authorization models.
+
+I care deeply about:
+
+- Clean Architecture  
+- Maintainable systems  
+- Security-first development  
+- Thoughtful domain modeling  
+- Translating complex business rules into reliable software  
 
 ---
 
 ## ⚙️ Tech Stack
 
 ### 💬 Languages
-- Java | Python | JavaScript  
-- SQL (PostgreSQL, MySQL) | NoSQL (MongoDB)
-
-### 🧰 Frameworks & Libraries
-- Django & Django REST Framework  
-- Spring Boot, Spring Security, Spring Data JPA  
-- React.js
-
-### 🌐 Web & API Development
-- RESTful APIs with JWT, CSRF, and role-based access  
-- Component-driven UIs with React  
-- Front-to-back authentication systems
-
-### ☁️ Cloud & Tools
-- AWS EC2 (Basics)  
-- Git, GitHub, GitLab  
-- Agile (Scrum), Jira, Postman
+- C# (Primary)
+- Java
+- Python
+- JavaScript / TypeScript
+- SQL
 
 ---
 
-## 🚀 Projects
-
-### 📚 AI-Powered Reading Tutor  
-An intelligent app that helps learners improve pronunciation using **wav2vec 2.0** and real-time speech analysis.  
-🔧 **Tech**: Django, React, Python, Wav2Vec2.0  
-✅ **Features**: Live speech feedback, interactive stories, fluency scoring
-
----
-
-### 🏫 School Management System  
-A backend-focused app for managing school content and access.  
-🔧 **Tech**: Spring Boot, Spring Security, PostgreSQL  
-✅ **Features**: RBAC, secure resource inheritance (files, video, text)
+### 🧰 Frameworks & Platforms
+- ASP.NET Core / Web API  
+- Entity Framework Core  
+- Spring Boot  
+- React.js  
+- Redux (with persistence & secure storage)
 
 ---
 
-### 📦 Storage Sprint Web App (Live)  
-An end-to-end web platform for managing stored items, schedules, and logistics.  
-🔧 **Tech**: Django, React.js, JWT  
-✅ **Features**: Token-based auth, secure driver/customer dashboards, API centralization
+### 🗄️ Data & Storage
+- Azure SQL Server  
+- PostgreSQL  
+- Cosmos DB (Gremlin / graph modeling)  
+- MongoDB  
 
 ---
 
-### 🤖 AI Email Assistant  
-A smart assistant that connects to Gmail and generates AI-powered replies using Gemini via Spring AI.  
-🔧 **Tech**: Spring Boot, Spring AI, Google Mail API, Gemini Pro  
-✅ **Features**:
-- Authenticates with Gmail using OAuth 2.0  
-- Parses email threads and prompts Gemini to draft natural responses  
-- Exposes REST endpoints for managing auto-replies  
-- Built with modular service layers and secure logic flow
+### 🔐 Auth & Security
+- Microsoft Entra ID (Azure AD)  
+- Multi-tenant authentication systems  
+- Role-based & policy-based authorization  
+- JWT & token-based security  
+- Tenant-scoped data isolation  
+- Audit logging & compliance design  
 
 ---
 
-## 🛡️ Security Focus
-
-- 🔐 AES-encrypted token storage & CSRF protection  
-- 🧱 Role-based access control via decorators  
-- 🚫 Patched logic flaw to prevent data exposure  
-- 🔁 JWT logout + token invalidation for session security
+### ☁️ Cloud & Dev Tools
+- Azure (Entra ID, SQL, Cosmos DB)  
+- AWS (foundational knowledge)  
+- Git & GitHub  
+- CI/CD concepts  
+- Agile / Scrum  
+- Postman / Swagger  
 
 ---
 
-## 🎓 Education
+# 🚀 Projects & Work
+
+---
+
+## 🏠 Deelmijnwoning – National Home-Sharing Platform
+
+A multi-tenant platform for housing corporations and home seekers.
+
+### Key Contributions
+- Designed backend using Clean Architecture & SOLID  
+- Implemented multi-tenant Entra ID authentication  
+- Built tenant-scoped authorization & role models  
+  (GlobalAdmin, CorporateAdmin, CorporateStaff)  
+- Developed complex domain workflows:
+  - Sharing requests  
+  - Candidate segmentation  
+  - Matching logic  
+  - Suitability assessments  
+- Integrated SQL + Cosmos Gremlin for relational + graph data  
+- Built audit logging & compliance-friendly traceability  
+- Implemented notification pipelines & lifecycle engines  
+
+---
+
+## 📦 Storage Sprint – Logistics Platform
+
+Courier and storage management platform with user & driver dashboards.
+
+### Key Contributions
+- Secure token-based authentication system  
+- Redux state management with persistence  
+- Role-based navigation & trip lifecycle flows  
+- Payment integration workflows  
+- API centralization & secure frontend patterns  
+- Real-time trip status management  
+
+---
+
+## 🤖 AI & ML Work
+
+### BERT-Based Slot Extraction
+- Built NER system to extract structured mission data from logs  
+- Used HuggingFace Transformers & seqeval  
+- Designed tokenization and training pipelines  
+
+### AI Reading Tutor
+- Pronunciation analysis using wav2vec 2.0  
+- Real-time speech feedback systems  
+- Fluency scoring logic  
+
+---
+
+# 🛡️ Security Focus
+
+- Multi-tenant isolation strategies  
+- Policy-based authorization models  
+- Secure token handling & lifecycle management  
+- Audit trails for sensitive operations  
+- Prevention of cross-tenant data leaks  
+- Defense-in-depth API design  
+
+---
+
+# 🎓 Education
 
 **University of Cape Town**  
-*BSc in Computer Science & Applied Statistics*  
-📘 Modules: Algorithms, Systems Design, DBs, Machine Learning, Operational Research, Cloud, Networks
+BSc Computer Science & Applied Statistics  
+
+Focus Areas:
+- Algorithms  
+- Systems Design  
+- Databases  
+- Machine Learning  
+- Operational Research  
+- Networks  
+- Cloud Computing  
 
 ---
 
-## 📫 Let's Connect
+# 📫 Connect With Me
 
-- 📸 IG: [@_tshembho.326]
-- 🌐 [tshembho.online]
-
----
-
-## 🧩 A Bit More About Me
-
-- ⚡ I love building products that solve real-world problems  
-- 🛠️ I’m obsessed with maintainable code and clean APIs  
-- 🌱 Always learning — currently brushing up AWS and advanced system design
+- 🌐 https://tshembho.online  
+- LinkedIn: (add link)  
+- GitHub: (add link)  
 
 ---
 
-> “Code is a tool. Problem-solving is the craft.”  
+# 🧩 A Bit More About Me
 
-Thanks for visiting — feel free to explore my work, star a project, or connect!
+- ⚡ I enjoy building systems that scale beyond MVP stage  
+- 🧠 I like deep backend & architecture challenges  
+- 🛠️ I value clean, understandable codebases  
+- 🌱 Currently leveling up in cloud architecture & distributed systems  
+
+---
+
+> “Good software is built twice — first in the mind, then in code.”
